@@ -94,6 +94,7 @@ class DemoViewController: UIViewController {
         print(currentCount)
     }
 
+    
     deinit {
         self.timer?.invalidate()
         self.timer = nil
